@@ -2207,7 +2207,21 @@ input, select, textarea {
 				}
 
 /* Main */
-
+	.about-me {
+		font-size: 4em;
+	}
+	.about-pic-container{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+	}
+	.profpic{
+		margin-bottom: 20px;
+		max-width: 40vw;
+		max-height: 50vh;
+		border-radius: 3px;
+	}
 	#main {
 		margin-left: 375px;
 	}
@@ -2261,6 +2275,7 @@ input, select, textarea {
 
 			#main > section.three {
 				background-color: #ecf1f1;
+
 			}
 
 			#main > section.four {
@@ -2325,6 +2340,7 @@ input, select, textarea {
 
 			.container {
 				padding: 0 2em 0 2em;
+
 			}
 
 		/* Icons */
